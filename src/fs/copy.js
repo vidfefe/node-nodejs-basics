@@ -1,5 +1,5 @@
 import path from 'path';
-import fs from 'fs/promises'
+import fs from 'fs/promises';
 
 const copy = async () => {
     const sourcePath = path.join('src', 'fs', 'files');
